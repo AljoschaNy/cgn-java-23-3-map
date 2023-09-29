@@ -15,10 +15,10 @@ public class TaskMain {
         students.put(max.getMatriculationNumber(), max);
         students.put(marie.getMatriculationNumber(), marie);
 
-        /*School school = new School();
+        School school = new School();
         school.addStudent(marie);
         school.addStudent(max);
         System.out.println(school);
-        System.out.println(school.getStudentByMatriculationNumber("4"));*/
+        System.out.println(school.getStudentByMatriculationNumber("4"));
     }
 }

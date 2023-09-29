@@ -9,7 +9,6 @@ public class School {
     private Map<String, Student> students;
 
     public School() {
-
         students = new HashMap<>();
     }
 
