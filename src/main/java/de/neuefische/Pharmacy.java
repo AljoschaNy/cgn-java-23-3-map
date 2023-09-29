@@ -17,4 +17,13 @@ public class Pharmacy {
     public void save(Medication medication) {
         medications.put(medication.getName(), medication);
     }
+
+    public Medication find(String medicationName) {
+        for(Medication medication : medications.values()) {
+            if(medication.getName().equals(medicationName)) {
+                return medication;
+            }
+        }
+        return null;
+    }
 }
