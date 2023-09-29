@@ -26,4 +26,14 @@ public class Pharmacy {
         }
         return null;
     }
+
+    public void delete(String medicationName) {
+        for(Medication medication : medications.values()) {
+            if(medication.getName().equals(medicationName)) {
+                medications.remove(medication.getName());
+                System.out.println("Medication has been deleted.");
+                break;
+            }
+        }
+    }
 }
