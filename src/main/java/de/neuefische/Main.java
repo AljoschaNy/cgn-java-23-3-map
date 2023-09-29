@@ -16,5 +16,7 @@ public class Main {
 
         myPharmacy.delete("test3");
         System.out.println(myPharmacy.getCount());
+
+        System.out.println(myPharmacy);
     }
 }
